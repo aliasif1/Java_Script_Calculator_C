@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JS Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <input class="display" id="displayelement">
+            <div class="button-holder">
+                <table>
+                    <tr>
+                        <td><button class = "calculator-button" onclick="newVal(9)">9</button></td>
+                        <td><button class = "calculator-button" onclick="newVal(8)">8</button></td>
+                        <td><button class = "calculator-button" onclick="newVal(7)">7</button></td>
+                        <td><button class = "calculator-button" onclick="eq()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class = "calculator-button" onclick="newVal(6)">6</button></td>
+                        <td><button class = "calculator-button" onclick="newVal(5)">5</button></td>
+                        <td><button class = "calculator-button" onclick="newVal(4)">4</button></td>
+                        <td><button class = "calculator-button" onclick="add('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class = "calculator-button" onclick="newVal(3)">3</button></td>
+                        <td><button class = "calculator-button" onclick="newVal(2)">2</button></td>
+                        <td><button class = "calculator-button" onclick="newVal(1)">1</button></td>
+                        <td><button class = "calculator-button" onclick="sub('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class = "calculator-button" onclick="newVal(0)">0</button></td>
+                        <td><button class = "calculator-button" onclick="back()">b</button></td>
+                        <td><button class = "calculator-button" onclick="clearDisplay()">c</button></td>
+                        <td><button class = "calculator-button" onclick="mul('*')">*</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>

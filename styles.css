@@ -1,0 +1,15 @@
+.calculator-button{
+    height: 40px;
+    width:60px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.display{
+    width: 255px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 25px;
+}
