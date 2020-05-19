@@ -4,7 +4,11 @@
     background-color: black;
     color: white;
     font-size: 20px;
-    cursor: pointer;
+    cursor: pointer;  
+}
+
+.calculator-button:hover{
+    background-color: teal;
 }
 
 .display{
